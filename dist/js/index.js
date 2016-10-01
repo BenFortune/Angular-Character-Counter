@@ -5,8 +5,8 @@ import './character-counter-component';
 import './character-counter-page';
 
 angular.module('app', [
-        'ngRoute',
-        'character.counter.app',
-        'character.counter.page'
-    ])
-    .config(Config)
+    'ngRoute',
+    'character.counter.app',
+    'character.counter.page'
+])
+    .config(Config);
