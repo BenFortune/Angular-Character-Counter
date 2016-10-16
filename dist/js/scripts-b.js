@@ -71,7 +71,7 @@ var CharacterCounterController = function () {
 exports.default = CharacterCounterController;
 
 },{}],3:[function(require,module,exports){
-module.exports = "<p>{{$ctrl.characterCounterLabel}}: {{$ctrl.characters}}</p>\n<!-- <p>Characters Left: {{$ctrl.charactersLeft}}</p> -->\n";
+module.exports = "<p>{{$ctrl.characterCounterLabel}}: {{$ctrl.characters}}</p>\n";
 
 },{}],4:[function(require,module,exports){
 'use strict';
@@ -123,7 +123,7 @@ var CharacterCounterPageController = function CharacterCounterPageController() {
 exports.default = CharacterCounterPageController;
 
 },{}],7:[function(require,module,exports){
-module.exports = "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-sm-12\">\n            <textarea class=\"simple-1\" data-ng-model=\"$ctrl.someEffCount\" name=\"name\" rows=\"6\" cols=\"40\"></textarea>\n            <character-counter count-up=\"$ctrl.someEffCount\"></character-counter>\n        </div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-sm-12\">\n            <textarea class=\"simple-1\" data-ng-model=\"$ctrl.someEffCount2\" name=\"name\" rows=\"6\" cols=\"40\"></textarea>\n            <character-counter count-down=\"$ctrl.someEffCount2\" max-length=\"200\"></character-counter>\n        </div>\n    </div>\n</div>\n";
+module.exports = "<header>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-12\">\n                <h1>Angular Character Counter</h1>\n            </div>\n        </div>\n    </div>\n</header>\n<section class=\"container\">\n    <form>\n        <div class=\"row\">\n            <div class=\"col-sm-12\">\n                <div class=\"form-group\">\n                    <textarea class=\"form-control\" data-ng-model=\"$ctrl.someEffCount\" name=\"name\" rows=\"6\" cols=\"40\"></textarea>\n                    <character-counter count-up=\"$ctrl.someEffCount\"></character-counter>\n                </div>\n                <div class=\"form-group\">\n                    <textarea class=\"form-control\" data-ng-model=\"$ctrl.someEffCount2\" name=\"name\" rows=\"6\" cols=\"40\"></textarea>\n                    <character-counter count-down=\"$ctrl.someEffCount2\" max-length=\"200\"></character-counter>\n                </div>\n            </div>\n        </div>\n    </form>\n</section>\n";
 
 },{}],8:[function(require,module,exports){
 'use strict';
