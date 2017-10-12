@@ -1,4 +1,4 @@
-#Angular 1.5.x Character Counter Component
+# Angular 1.5.x Character Counter Component
 
 ---
 
